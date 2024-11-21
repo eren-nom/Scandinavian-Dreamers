@@ -1,0 +1,23 @@
+footer ul {
+    display: flex; /* Display the list items in a row by default */
+    justify-content: space-between; /* Distribute items evenly */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+footer li {
+    font-size: 1rem;
+}
+
+/* Media query for smaller screens (mobile) */
+@media (max-width: 600px) {
+    footer ul {
+        flex-direction: column; /* Stack items in a column on small screens */
+        align-items: center; /* Center align the items */
+    }
+
+    footer li {
+        margin-bottom: 1rem; /* Add some space between the list items */
+    }
+}
